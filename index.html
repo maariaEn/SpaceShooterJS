@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPACESHOOTER</title>
+    <style>
+        *{
+            color: white;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+        }
+        body {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: url('Background.jpg') no-repeat center center;
+            background-size: cover;
+        }
+        canvas {
+            background: rgba(0, 0, 0);
+            border: 2px solid white;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="cheaty()">Cheat: +5 score</button>
+    <button onclick="cheaty2()">Cheat: +5 health</button>
+    <canvas id="gameCanvas" width="800" height="500"></canvas>
+    <script src="script.js"></script>
+    <hr>
+    Strzał spacja, boss pojawia sie na 20, statki przyspieszaja od 50 <hr> nowy level + zmiana tla, po pokonaniu bossa <hr> zycie traci sie od kolizji, trafienia i jak statek ucieknie
+    <hr />
+    5 nowcyh fukcjonalnosci: 
+    1. banka z dodatkowym zyciem
+    2. banka z bonusem do predkosci
+    3. trzeci poziom (nowe tlo, nowe statki)
+    4. nowy boss
+    5. koniec gry
+
+</body>
+</html>
